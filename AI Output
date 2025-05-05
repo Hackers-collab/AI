@@ -1,0 +1,82 @@
+1] BFS DFS
+Enter number of vertices: 4
+Enter number of edges: 4
+Enter edges (format: node1 node2):
+A B
+A C
+B D
+C D
+Enter the starting node: A
+
+Depth First Search (DFS) - Recursive:
+A B D C 
+Breadth First Search (BFS) - Recursive:
+A B C D 
+=== Code Execution Successful ===
+
+
+2] A* Algorithm
+Enter initial state:
+Enter state (space-separated). 0 represents blank tile:
+1 2 3
+4 0 6
+7 5 8
+Enter goal state:
+Enter state (space-separated). 0 represents blank tile:
+1 2 3
+4 5 6
+7 8 0
+
+START SOLVING...
+
+Step 0:
+g(x) = 0
+h(x) = 2
+f(x) = 2
+Matrix state:
+1 2 3
+4 0 6
+7 5 8
+
+Step 1:
+g(x) = 1
+h(x) = 1
+f(x) = 2
+Matrix state:
+1 2 3
+4 5 6
+7 0 8
+
+Goal reached at step 2
+g(x) = 2
+h(x) = 0
+f(x) = 2
+Matrix state:
+1 2 3
+4 5 6
+7 8 0
+
+3] Greedy Algorithm
+* Selection Sort
+
+How many numbers to sort? 5
+Enter number 1: 23
+Enter number 2: 12
+Enter number 3: 5
+Enter number 4: 8
+Enter number 5: 19
+
+* Job Scheduling
+
+Enter number of jobs: 3
+Enter job ID: J1
+Enter deadline for job J1: 2
+Enter profit for job J1: 100
+
+Enter job ID: J2
+Enter deadline for job J2: 1
+Enter profit for job J2: 19
+
+Enter job ID: J3
+Enter deadline for job J3: 2
+Enter profit for job J3: 27
